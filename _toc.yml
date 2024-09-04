@@ -1,0 +1,26 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: Employees
+    numbered: false
+    chapters:
+      - file: docs/employees
+        sections:
+          - file: docs/employee/mobius
+          - file: docs/employee/ravonna
+          - file: docs/employee/b15
+          - file: docs/employee/casey
+          - file: docs/employee/missminutes
+          - file: docs/employee/c20
+          - file: docs/employee/x05
+          - file: docs/employee/dox
+          - file: docs/employee/ouroboros
+          - file: docs/employee/loki
+  - caption: Variants
+    numbered: false
+    chapters:
+      - file: docs/variants_to_catch
