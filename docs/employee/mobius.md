@@ -1,12 +1,30 @@
 # **Mobius M. Mobius**
 
-![Profile Picture](path_to_mobius_picture.jpg)
+::::{grid}
+:reverse:
+:gutter: 3 4 4 4
+:margin: 1 2 1 2
 
----
+:::{grid-item}
+:columns: 12 4 4 4
+
+```{image} /img/employee-1.png
+:width: 250px
+:class: sd-m-auto
+:name: me
+```
+
+:::
+
+:::{grid-item}
+:columns: 12 8 8 8
+:child-align: justify
 
 ## **About Mobius**
 
 Mobius M. Mobius is a senior analyst at the TVA, known for his exceptional ability to track and manage time variants with a calm and strategic approach. He has a deep understanding of the Sacred Timeline and is often involved in high-stakes missions. Mobius has a reputation for being empathetic towards variants, always seeking a resolution that aligns with the TVA's mission while considering the nuances of each case.
+:::
+::::
 
 ---
 

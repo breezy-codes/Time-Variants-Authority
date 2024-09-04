@@ -26,8 +26,8 @@ Welcome to the TVA Employee Directory. Below is a list of our dedicated team mem
 
 ## **5. Miss Minutes**
 
-   - **Position:** TVA AI Assistant
-   - **[Profile](/docs/employee/missminutes)**
+- **Position:** TVA AI Assistant
+- **[Profile](/docs/employee/missminutes)**
 
 ## **6. Hunter C-20**
 

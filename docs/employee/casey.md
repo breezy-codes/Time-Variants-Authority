@@ -1,12 +1,30 @@
 # **Casey**
 
-![Profile Picture](path_to_casey_picture.jpg)
+::::{grid}
+:reverse:
+:gutter: 3 4 4 4
+:margin: 1 2 1 2
 
----
+:::{grid-item}
+:columns: 12 4 4 4
+
+```{image} /img/employee-4.png
+:width: 250px
+:class: sd-m-auto
+:name: me
+```
+
+:::
+
+:::{grid-item}
+:columns: 12 8 8 8
+:child-align: justify
 
 ## **About Casey**
 
 Casey is a TVA clerk responsible for managing and cataloging the intake of confiscated items from time variants. Despite his seemingly mundane role, Casey plays a crucial part in maintaining the organization's extensive inventory of temporal evidence. His work is characterized by meticulous attention to detail and a genuine curiosity about the items that pass through his hands. Casey is known for his cheerful demeanor and willingness to assist his colleagues with various administrative tasks.
+:::
+::::
 
 ---
 

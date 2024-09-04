@@ -1,12 +1,30 @@
 # **Dox**
 
-![Profile Picture](path_to_dox_picture.jpg)
+::::{grid}
+:reverse:
+:gutter: 3 4 4 4
+:margin: 1 2 1 2
 
----
+:::{grid-item}
+:columns: 12 4 4 4
+
+```{image} /img/employee-8.png
+:width: 250px
+:class: sd-m-auto
+:name: me
+```
+
+:::
+
+:::{grid-item}
+:columns: 12 8 8 8
+:child-align: justify
 
 ## **About Dox**
 
 Dox serves as the Senior Administrator at the TVA, overseeing the day-to-day operations and ensuring the smooth coordination of various departments. Her role is pivotal in managing resource allocation and ensuring that every mission runs efficiently. She is known for her authoritative leadership style, keen organizational skills, and her ability to keep everything running on schedule, no matter the complexity.
+:::
+::::
 
 ---
 

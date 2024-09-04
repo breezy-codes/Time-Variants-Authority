@@ -1,4 +1,4 @@
-# to update the book - 
+# to update the book -
 
 cd /home/breezy/Documents/GitHub/University-Subjects
 
@@ -8,11 +8,10 @@ or rebuild with
 
 jupyter-book build --all Time-Variants-Authority
 
-# to push the book to GitHub Pages -
+## to push the book to GitHub Pages -
 
 cd /home/breezy/Documents/GitHub/Jupyter-Books/Time-Variants-Authority
 
-make sure in main - 
+make sure in main -
 
 ghp-import -n -p -f _build/html
-

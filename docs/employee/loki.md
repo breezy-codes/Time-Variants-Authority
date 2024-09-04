@@ -1,14 +1,32 @@
 # **Loki Laufeyson**
 
-![Profile Picture](path_to_loki_picture.jpg)
+::::{grid}
+:reverse:
+:gutter: 3 4 4 4
+:margin: 1 2 1 2
 
----
+:::{grid-item}
+:columns: 12 4 4 4
+
+```{image} /img/employee-10.png
+:width: 250px
+:class: sd-m-auto
+:name: me
+```
+
+:::
+
+:::{grid-item}
+:columns: 12 8 8 8
+:child-align: justify
 
 ## **About Loki**
 
 Loki Laufeyson, once known as the God of Mischief, is now an unlikely but vital asset working for the TVA. After being captured as a time variant, Loki has traded his past schemes for a new role within the TVA, using his cunning and intelligence to help maintain the Sacred Timeline. While his methods may sometimes raise eyebrows, Loki’s unique perspective on time and variants has proven invaluable in understanding complex anomalies.
 
 Loki’s transition from troublemaker to TVA operative has been filled with challenges, but his loyalty to the organization has deepened, particularly after facing variants of himself and other threats to the multiverse.
+:::
+::::
 
 ---
 

@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Time Variants Authority - For All Time Always
+title: TVA - For All Time Always
 author: Brianna Laird
 logo: logo.png
 copyright: "2024"
@@ -34,3 +34,7 @@ html:
 #sphinx:
 #  extra_extensions:
 #    - sphinx_proof
+
+html:
+  extra_css:
+    - _static/custom.css

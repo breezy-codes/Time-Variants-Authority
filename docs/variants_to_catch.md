@@ -7,7 +7,7 @@ Welcome to the TVA's Most Wanted list, where we track the most elusive and dange
 ## **1. Sylvie Laufeydottir**
 
 - **Alias:** "The Variant"
-- **Time on the Run:** 5 years
+- **Time on the Run:** 11 years
 - **Last Seen:** 2077 (Oshkosh, Wisconsin)
 - **About Sylvie:** Sylvie Laufeydottir is a Loki variant with a deep-seated grudge against the TVA. She has been evading capture for years, wreaking havoc across multiple timelines. Sylvie possesses immense magical abilities and has become highly skilled in evading detection. Her ultimate goal remains unclear, but she has been systematically targeting TVA facilities, making her the TVA's most dangerous target.
 - **Current Status:** At large and highly dangerous.
@@ -74,17 +74,7 @@ Welcome to the TVA's Most Wanted list, where we track the most elusive and dange
 
 ---
 
-## **8. Deadpool (Wade Wilson)**
-
-- **Alias:** "The Merc with a Mouth"
-- **Time on the Run:** 5 years
-- **Last Seen:** 2023 (Canada)
-- **About Deadpool:** Deadpool’s actions across multiple timelines have caused chaos that the TVA is struggling to control. His reckless time-traveling antics, including attempts to prevent his own tragic backstory and meddling in key historical events, have destabilized several timelines. Despite multiple warnings from the TVA, Deadpool continues to cause mayhem, seemingly indifferent to the consequences.
-- **Current Status:** Actively traveling across timelines, continuing to wreak havoc.
-
----
-
-## **9. Scarlet Witch (Wanda Maximoff)**
+## **8. Scarlet Witch (Wanda Maximoff)**
 
 - **Alias:** "The Nexus Being"
 - **Time on the Run:** 3 years
@@ -94,7 +84,7 @@ Welcome to the TVA's Most Wanted list, where we track the most elusive and dange
 
 ---
 
-## **10. Kang the Conqueror**
+## **9. Kang the Conqueror**
 
 - **Alias:** "Master of Time"
 - **Time on the Run:** 10 years
