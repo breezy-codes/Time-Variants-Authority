@@ -9,12 +9,27 @@ body {
 h1, h2, h3, h4, h5, h6, .headerlink {
     color: #f77e22 !important; /* Bronze color */
     font-family: 'Roboto Slab', serif;
+    text-align: center;
 }
 
 /* Link styling: neon green accents */
 a {
-    color: #64ffda; /* Neon green */
+    color: #f77e22; /* Neon green */
     opacity: 1; /* Ensure opacity is fully visible */
+}
+
+/* Set the topic title to bronze, even inside nav.contents */
+nav.contents p.topic-title {
+    color: #d35400 !important; /* Bronze color */
+    text-decoration: none !important; /* Ensure no text decoration */
+    font-size: 1.8em; /* Larger text size for better visibility */
+    text-align: center;
+}
+
+/* Set the background color of the navigation (TOC) to match the main background */
+nav#contents {
+    background-color: #2e2a29 !important; /* Match dark brown/gray background */
+    border-color: #2e2a29 !important; /* Optional: Match border color if necessary */
 }
 
 a:hover {
@@ -196,7 +211,7 @@ span.std-doc {
 span.caption-text {
     color: #f77e22 !important; /* Bronze color */
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 /* Top navigation bar */

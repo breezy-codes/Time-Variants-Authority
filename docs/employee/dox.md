@@ -38,3 +38,11 @@ Dox serves as the Senior Administrator at the TVA, overseeing the day-to-day ope
   - Keeps detailed logs of every interaction she has with other departments, creating a wealth of administrative data.
   - Known to attend high-level meetings with senior officials and occasionally carries sensitive data on her personal devices.
   - Has a secure office, but tends to leave her password on a sticky note under her desk.
+
+---
+
+> "For all time. Always."
+
+---
+
+**© 2024 Time Variance Authority. All rights reserved.**

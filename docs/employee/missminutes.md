@@ -38,3 +38,11 @@ Miss Minutes is the TVA's artificial intelligence assistant, designed to provide
   - Frequently interacts with employees to ensure they are following TVA protocols.
   - Known to "pop up" unexpectedly on TVA devices, sometimes catching employees off guard.
   - Programmed with a failsafe to report any suspicious activity directly to TVA Security.
+
+---
+
+> "For all time. Always."
+
+---
+
+**© 2024 Time Variance Authority. All rights reserved.**

@@ -54,13 +54,13 @@ TVA-issued devices and technologies are vital tools in the management of the tim
 
 ## **Join the TVA**
 
-Are you ready to serve a greater purpose? The TVA is always looking for skilled individuals to help preserve the Sacred Timeline. Visit our [Careers](#) page to learn about current openings and how you can contribute to the protection of the multiverse.
+Are you ready to serve a greater purpose? The TVA is always looking for skilled individuals to help preserve the Sacred Timeline. Visit our [Careers](/docs/careers.md) page to learn about current openings and how you can contribute to the protection of the multiverse.
 
 ---
 
 ## **Contact Us**
 
-Have a question about our mission or policies? Need assistance with a temporal anomaly? Reach out to our support team via the [Contact Page](#).
+Have a question about our mission or policies? Need assistance with a temporal anomaly? Reach out to our support team via the [Contact Page](/docs/contact.md).
 
 ---
 

@@ -38,3 +38,11 @@ Judge Ravonna Renslayer is one of the TVA's most respected figures, responsible 
   - Keeps a private collection of artifacts from timelines that have been pruned.
   - Has a known connection to the Time-Keepers, whom she consults regularly.
   - Possesses a high-level clearance within the TVA, giving her access to restricted areas and classified information.
+
+---
+
+> "For all time. Always."
+
+---
+
+**© 2024 Time Variance Authority. All rights reserved.**

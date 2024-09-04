@@ -41,3 +41,11 @@ Loki’s transition from troublemaker to TVA operative has been filled with chal
   - Often keeps cryptic notes about his thoughts on alternate versions of himself, which are left unsecured in his quarters.
   - Has developed a close, albeit unconventional, working relationship with Mobius M. Mobius.
   - Despite his newfound role, Loki is still known for bending rules, including the occasional unsanctioned detour through timelines.
+
+---
+
+> "For all time. Always."
+
+---
+
+**© 2024 Time Variance Authority. All rights reserved.**

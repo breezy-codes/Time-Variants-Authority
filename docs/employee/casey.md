@@ -38,3 +38,11 @@ Casey is a TVA clerk responsible for managing and cataloging the intake of confi
   - Known to ask questions about how the confiscated items work, out of sheer curiosity.
   - Keeps a personal log of particularly interesting artifacts, though he has no clearance to access classified items.
   - Sometimes leaves his workstation unattended during breaks, with sensitive documents occasionally left in plain sight.
+
+---
+
+> "For all time. Always."
+
+---
+
+**© 2024 Time Variance Authority. All rights reserved.**

@@ -24,3 +24,14 @@ parts:
     numbered: false
     chapters:
       - file: docs/variants_to_catch
+  - caption: Policies
+    numbered: false
+    chapters:
+      - file: docs/policies
+        sections:
+          - file: docs/policy/operations
+          - file: docs/policy/incidents
+  - caption: Careers
+    numbered: false
+    chapters:
+      - file: docs/careers

@@ -38,3 +38,11 @@ Mobius M. Mobius is a senior analyst at the TVA, known for his exceptional abili
   - Has a fondness for mid-20th century Earth culture, particularly the 1990s.
   - Often carries a small notebook where he jots down important thoughts and observations.
   - Maintains a close friendship with Judge Ravonna Renslayer, with whom he often discusses complex cases.
+
+---
+
+> "For all time. Always."
+
+---
+
+**© 2024 Time Variance Authority. All rights reserved.**

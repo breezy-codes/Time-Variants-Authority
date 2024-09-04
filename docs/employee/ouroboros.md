@@ -38,3 +38,11 @@ Ouroboros, better known as O.B., is the TVA's chief Temporal Engineer. He is res
   - Carries a personal, heavily-modified Tempad that allows him to bypass certain security protocols.
   - Has been known to keep backups of older, experimental designs on unencrypted devices for personal research.
   - Frequently shares his love for obscure engineering trivia with colleagues, sometimes forgetting to secure classified projects when distracted.
+
+---
+
+> "For all time. Always."
+
+---
+
+**© 2024 Time Variance Authority. All rights reserved.**
