@@ -1,0 +1,229 @@
+/* Body styling: muted background with light text */
+body {
+    background-color: #2e2a29; /* Dark brown/gray */
+    color: #f0ece2; /* Off-white text */
+    font-family: 'Roboto', sans-serif; /* A clean, modern font */
+}
+
+/* Headings: Use bronze color for better visibility */
+h1, h2, h3, h4, h5, h6, .headerlink {
+    color: #f77e22 !important; /* Bronze color */
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+/* Link styling: neon green accents */
+a {
+    color: #f77e22; /* Neon green */
+    opacity: 1; /* Ensure opacity is fully visible */
+}
+
+/* Set the topic title to bronze, even inside nav.contents */
+nav.contents p.topic-title {
+    color: #d35400 !important; /* Bronze color */
+    text-decoration: none !important; /* Ensure no text decoration */
+    font-size: 1.8em; /* Larger text size for better visibility */
+    text-align: center;
+}
+
+/* Set the background color of the navigation (TOC) to match the main background */
+nav#contents {
+    background-color: #2e2a29 !important; /* Match dark brown/gray background */
+    border-color: #2e2a29 !important; /* Optional: Match border color if necessary */
+}
+
+a:hover {
+    color: #f77e22; /* Bronze on hover */
+}
+
+/* Customize navigation bar background to match TVA colors */
+.navbar {
+    background-color: #373737; /* Dark, industrial gray */
+    color: #f0ece2; /* Off-white text */
+}
+
+/* Styling the sidebar */
+.bd-sidebar-primary {
+    background-color: #1f1d1b; /* Dark background for sidebar */
+    color: #f0ece2; /* Off-white text */
+}
+
+/* Sidebar links styling - change to bronze */
+.bd-sidebar-primary a {
+    color: #f77e22 !important; /* Bronze color for sidebar links */
+    font-weight: bold;
+}
+
+.bd-sidebar-primary a:hover {
+    color: #64ffda !important; /* Neon green on hover */
+}
+
+/* Sidebar headers and dividers: Bronze for accent */
+.sidebar-primary-item h2 {
+    color: #f77e22; /* Bronze headers for sidebar */
+}
+
+.sidebar-primary-item hr {
+    border-color: #f77e22; /* Bronze dividers */
+}
+
+/* Code block styling: dark background with orange highlights */
+code {
+    background-color: #333333; /* Dark gray */
+    color: #f77e22; /* Muted orange */
+}
+
+/* Blockquotes: Orange background, white border-left, and teal text inside */
+blockquote {
+    background-color: #f77e22; /* Bright orange background */
+    border-left: 4px solid #f0ece2; /* Off-white border on the left */
+    padding: 1rem; /* Padding for readability */
+    color: #f0ece2; /* Off-white text */
+}
+
+blockquote p {
+    color: #2e2a29 !important; /* Teal text for paragraphs inside blockquote */
+}
+
+/* Button styling: Bronze background with hover effect */
+button {
+    background-color: #f77e22; /* Bronze background */
+    color: #f0ece2; /* Off-white text */
+    border: none;
+}
+
+button:hover {
+    background-color: #1b1b1b; /* Dark hover effect */
+    color: #64ffda; /* Neon green hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #1f1d1b; /* Dark footer background */
+    color: #f0ece2; /* Off-white text */
+}
+
+/* Table styling: Dark background, bronze borders, and off-white text */
+table {
+    background-color: #333333; /* Dark background */
+    color: #f0ece2; /* Off-white text */
+    border: 1px solid #f77e22; /* Bronze borders */
+}
+
+th {
+    background-color: #2e2a29; /* Dark background for table headers */
+    color: #f77e22; /* Bronze text */
+}
+
+td {
+    border: 1px solid #f77e22; /* Bronze borders */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #1f1d1b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f77e22;
+    border-radius: 6px;
+}
+
+/* Secondary sidebar: Dark background and light text */
+.bd-sidebar-secondary {
+    background-color: #2e2a29; /* Dark brown background */
+    color: #f0ece2; /* Off-white text */
+}
+
+/* Secondary sidebar links */
+.bd-sidebar-secondary a {
+    color: #f77e22; /* Bronze color for links */
+}
+
+.bd-sidebar-secondary a:hover {
+    color: #64ffda; /* Neon green on hover */
+}
+
+/* Secondary sidebar headings */
+.bd-sidebar-secondary h2 {
+    color: #f77e22; /* Bronze headings */
+}
+
+/* TOC (Table of Contents) links: Bronze text with teal hover */
+.bd-toc {
+    background-color: #2e2a29; /* Dark background */
+    color: #f0ece2; /* Off-white text */
+}
+
+.bd-toc a {
+    color: #f77e22; /* Bronze color for TOC links */
+}
+
+.bd-toc a:hover {
+    color: #64ffda; /* Teal-green hover */
+}
+
+/* Active TOC link styling */
+.toc-h2 a.nav-link.active {
+    color: #f77e22 !important; /* Bronze for active TOC links */
+    font-weight: bold;
+}
+.toc-h2 a.nav-link {
+    color: #d35400 !important; /* Teal color when inactive */
+}
+
+.toc-h2 a.nav-link.active:hover {
+    color: #64ffda !important; /* Teal-green on hover */
+}
+
+/* On-this-page section styling in sidebar */
+.bd-sidebar-secondary .onthispage {
+    color: #f77e22 !important; /* Bronze color */
+}
+
+.bd-sidebar-secondary .onthispage * {
+    color: #f77e22 !important; /* Bronze for all nested elements */
+}
+
+/* Header article background color */
+.bd-header-article {
+    background-color: #2e2a29 !important; /* Dark brownish background */
+}
+
+/* Button in header article */
+.bd-header-article .btn {
+    color: #f77e22 !important; /* Bronze text */
+    background-color: transparent;
+}
+
+.bd-header-article .btn:hover {
+    background-color: #64ffda !important; /* Teal hover background */
+    color: #1f1d1b !important; /* Dark hover text */
+}
+
+/* Change text color inside span.std-doc to teal */
+span.std-doc {
+    color: #64ffda !important; /* Teal-green color */
+}
+
+/* Captions: Bronze text */
+span.caption-text {
+    color: #f77e22 !important; /* Bronze color */
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+/* Top navigation bar */
+header.bd-header.navbar {
+    background-color: #1f1d1b !important; /* Dark background */
+    color: #f0ece2 !important; /* Off-white text */
+}
+
+header.bd-header.navbar a {
+    color: #f0ece2 !important; /* Off-white links */
+}
+
+header.bd-header.navbar a:hover {
+    color: #64ffda !important; /* Teal-green hover */
+}
