@@ -4,7 +4,7 @@ import os
 
 fake = Faker()
 current_dir = os.getcwd()
-output_folder = os.path.join(current_dir, "phishing-emails", "generated_emails")
+output_folder = os.path.join(current_dir, "phishing_emails", "generated_emails")
 os.makedirs(output_folder, exist_ok=True)
 
 # Import the python files that contain all the random data
@@ -58,4 +58,4 @@ def generate_emails_html(num_emails):
         subject = generate_email_html(i)
         print(subject)
 
-generate_emails_html(10)
+generate_emails_html(20)
