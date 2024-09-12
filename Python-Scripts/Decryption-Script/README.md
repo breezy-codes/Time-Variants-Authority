@@ -89,3 +89,12 @@ All files in `/home/tva/Documents/Important_TVA_Files` will be decrypted and res
 Once the decryption is complete, files in the specified folder will be restored to their readable form, assuming the correct code word was provided.
 
 > For All Time Always. 🕰️🌐
+
+```bash
+████████╗██╗   ██╗ █████╗ 
+╚══██╔══╝██║   ██║██╔══██╗
+   ██║   ██║   ██║███████║
+   ██║   ╚██╗ ██╔╝██╔══██║
+   ██║    ╚████╔╝ ██║  ██║
+   ╚═╝     ╚═══╝  ╚═╝  ╚═╝
+```
