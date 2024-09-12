@@ -84,3 +84,12 @@ All files in `/home/tva/Documents/Important_TVA_Files` will be encrypted and sav
 Once the encryption is complete, files in the specified folder will no longer be readable in their original form. The IV is stored within the encrypted file, which ensures that the decryption process is deterministic when using the correct key.
 
 > For All Time Always. 🕰️🌐
+
+```shell
+██████╗ ██████╗ ███████╗███████╗███████╗██╗   ██╗   
+██╔══██╗██╔══██╗██╔════╝██╔════╝╚══███╔╝╚██╗ ██╔╝   
+██████╔╝██████╔╝█████╗  █████╗    ███╔╝  ╚████╔╝    
+██╔══██╗██╔══██╗██╔══╝  ██╔══╝   ███╔╝    ╚██╔╝     
+██████╔╝██║  ██║███████╗███████╗███████╗   ██║   ██╗
+╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝   ╚═╝   ╚═╝
+```
