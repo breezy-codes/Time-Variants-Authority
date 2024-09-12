@@ -4,7 +4,7 @@ import os
 
 fake = Faker()
 current_dir = os.getcwd()
-output_folder = os.path.join(current_dir, "phishing_emails", "generated_emails")
+output_folder = os.path.join(current_dir, "Python-Scripts", "Phishing-Emails", "Generated-Emails")
 os.makedirs(output_folder, exist_ok=True)
 
 # Import the python files that contain all the random data
@@ -52,8 +52,20 @@ def generate_email_html(index):
     
     return f"Email {index}: {subject}"
 
+def display_title():
+    print(r"""
+ ██████╗ ███████╗████████╗    ██████╗ ██╗  ██╗██╗███████╗██╗  ██╗██╗   ██╗
+██╔════╝ ██╔════╝╚══██╔══╝    ██╔══██╗██║  ██║██║██╔════╝██║  ██║╚██╗ ██╔╝
+██║  ███╗█████╗     ██║       ██████╔╝███████║██║███████╗███████║ ╚████╔╝ 
+██║   ██║██╔══╝     ██║       ██╔═══╝ ██╔══██║██║╚════██║██╔══██║  ╚██╔╝  
+╚██████╔╝███████╗   ██║       ██║     ██║  ██║██║███████║██║  ██║   ██║   
+ ╚═════╝ ╚══════╝   ╚═╝       ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   
+
+I generated some phishy emails for you! Check out the 'generated_emails' folder.
+          """)
 # Generate a series of phishing emails in HTML format and save each as a new file
 def generate_emails_html(num_emails):
+    display_title()
     for i in range(1, num_emails + 1):
         subject = generate_email_html(i)
         print(subject)

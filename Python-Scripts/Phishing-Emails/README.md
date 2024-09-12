@@ -1,14 +1,25 @@
-# Phishing Email Generator
+```bash
+ ██████╗ ███████╗████████╗    ██████╗ ██╗  ██╗██╗███████╗██╗  ██╗██╗   ██╗
+██╔════╝ ██╔════╝╚══██╔══╝    ██╔══██╗██║  ██║██║██╔════╝██║  ██║╚██╗ ██╔╝
+██║  ███╗█████╗     ██║       ██████╔╝███████║██║███████╗███████║ ╚████╔╝ 
+██║   ██║██╔══╝     ██║       ██╔═══╝ ██╔══██║██║╚════██║██╔══██║  ╚██╔╝  
+╚██████╔╝███████╗   ██║       ██║     ██║  ██║██║███████║██║  ██║   ██║   
+ ╚═════╝ ╚══════╝   ╚═╝       ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   
+```
 
 This project generates random phishing emails in HTML format, simulating various jet ski-themed emails. Each email includes randomly generated content, such as app names, locations, activities, and social features. The generated emails are saved as `.html` files in a specified folder within the current directory.
 
+## Disclaimer
+
+This project was created for educational purposes as part of a HD project, and it should only be used in simulated environments for educational or research purposes. The use of phishing emails for malicious intent is illegal and unethical.
+
 ## Purpose
 
-The primary purpose of this project is to demonstrate how phishing emails can be constructed using random generators and template-based content. By leveraging libraries like `Faker` and custom random content, we can create a variety of unique phishing emails with minimal repetition.
+The primary purpose of this project is to generate targeted phishing emails to a specific TVA employee as part of the HD hacking project. The target employee was found to love Jetskis, so 3 python files were created to generate a series of randomised but themed emails to entice the target to click on a link and install a "Jetski" app on their device. The emails are generated in HTML format and saved to a folder for later use.
 
 ## Project Structure
 
-The project is split into multiple Python files for better organization:
+The project is split into multiple Python files for better organisation:
 
 ### 1. `random_generators.py`
 
@@ -23,7 +34,6 @@ This module is responsible for generating random content, such as locations, app
 - `get_random_feature()`: Selects a random feature.
 - `get_random_social_feature()`: Selects a random social feature.
 - `get_random_team_name()`: Selects a random team name.
-- `get_random_paragraph()`: Selects a random paragraph.
 - `get_random_social_title()`: Selects a random social title.
 - `get_random_social_news()`: Selects a random social news section.
 - `get_random_company_update_title()`: Selects a random company update title.
@@ -37,17 +47,7 @@ This module contains all the static content used in the phishing emails. This in
 
 - `subject_lines`: Predefined subject lines for the emails.
 - `email_bodies`: HTML templates for the email bodies.
-- `app_names`: List of random app names.
-- `download_urls`: List of random download URLs.
-- `random_activities`: List of random activities.
-- `random_features`: List of random features.
-- `random_social_features`: List of random social features.
-- `team_names`: List of random team names.
 - `random_paragraphs`: List of random paragraphs to add variability to emails.
-- `social_title`: List of random social section titles.
-- `social_news`: List of random social news sections.
-- `company_update_title`: List of random company update titles.
-- `company_update`: List of random company updates.
 
 ### 3. `generate_emails.py`
 
@@ -62,29 +62,6 @@ This is the main module that ties everything together. It imports the random gen
 
 - `phishing_emails/`: This is the main directory containing the 3 Python files.
   - `generated_emails/`: This is where the generated phishing emails will be saved.
-
-## Usage
-
-1. Clone the repository:
-
-    ```bash
-    git clone <repository-url>
-    cd phishing-emails
-    ```
-
-2. Install the dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the script to generate phishing emails:
-
-    ```bash
-    python generate_emails.py
-    ```
-
-4. The generated emails will be saved in the `generated_emails` folder.
 
 ### Example of Generated Email
 
@@ -108,10 +85,6 @@ An example of what a generated phishing email might look like:
 </html>
 ```
 
-### Customization
-
-You can modify the contents of the `email_templates.py` file to adjust the email templates, subject lines, or add additional random content.
-
 ### Requirements
 
 - `Faker` library for generating random city names:
@@ -119,3 +92,5 @@ You can modify the contents of the `email_templates.py` file to adjust the email
 ```bash
 pip install faker
 ```
+
+> For All Time Always. 🕰️🌐
