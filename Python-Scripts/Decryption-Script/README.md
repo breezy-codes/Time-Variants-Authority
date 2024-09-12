@@ -10,7 +10,7 @@ Welcome to the Decryption Script! Enter the folder path that needs to be decrypt
 Beware, there is only 5 attempts to enter the correct code word.
 ```
 
-This project provides a Python-based tool to decrypt all files within a specified folder using AES (Advanced Encryption Standard) decryption. The files are decrypted with a key derived from a user-provided code word, ensuring that the original data can only be restored with the correct key. The tool handles decryption with AES in CBC (Cipher Block Chaining) mode, and it allows the user multiple attempts to enter the correct code word.
+This folder contains a Python-based tool to decrypt all files within a specified folder using AES (Advanced Encryption Standard) decryption. The files are decrypted with a key derived from a user-provided code word, ensuring that the original data can only be restored with the correct key. The tool handles decryption with AES in CBC (Cipher Block Chaining) mode, and it allows the user 5 attempts to enter the correct code word.
 
 ## Disclaimer
 
@@ -18,11 +18,7 @@ This project was created for educational purposes as part of a HD project, and i
 
 ## Purpose
 
-The primary purpose of this project is to decrypt all files in a given folder. The key for decryption is derived from a code word that must match the one used during encryption. The decryption algorithm used is AES in CBC mode, with padding removed to restore the original file data.
-
-## Project Structure
-
-The project consists of a single Python file that handles key derivation, file decryption, and folder traversal to decrypt multiple files at once.
+The primary purpose of this project is to decrypt all files in a given folder. The key for decryption is derived from a code word that must match the one used during encryption. The decryption algorithm used is AES in CBC mode, with padding removed to restore the original file data. The consists of a single Python file that handles key derivation, file decryption, and folder traversal to decrypt multiple files at once.
 
 ### Code Breakdown
 

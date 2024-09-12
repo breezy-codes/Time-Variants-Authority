@@ -17,11 +17,7 @@ This project was created for educational purposes as part of a HD project, and i
 
 ## Purpose
 
-The primary purpose of this project is to encrypt all files in a given folder. The key for encryption is derived from a code word, which ensures that the files can only be decrypted using the same code word. The encryption algorithm used is AES, with padding applied to ensure the file data fits within block size constraints.
-
-## Project Structure
-
-The project consists of a single Python file that handles key derivation, file encryption, and folder traversal to encrypt multiple files at once.
+The primary purpose of this project is to encrypt all files in a given folder. The key for encryption is derived from a code word, which ensures that the files can only be decrypted using the same code word. The encryption algorithm used is AES, with padding applied to ensure the file data fits within block size constraints. The folder consists of a single Python file that handles key derivation, file encryption, and folder traversal to encrypt multiple files at once.
 
 ### Code Breakdown
 

@@ -17,9 +17,9 @@ This project was created for educational purposes as part of a HD project, and i
 
 The primary purpose of this project is to generate targeted phishing emails to a specific TVA employee as part of the HD hacking project. The target employee was found to love Jetskis, so 3 python files were created to generate a series of randomised but themed emails to entice the target to click on a link and install a "Jetski" app on their device. The emails are generated in HTML format and saved to a folder for later use.
 
-## Project Structure
+## Folder Structure
 
-The project is split into multiple Python files for better organisation:
+The folder is split into multiple Python files for better organisation:
 
 ### 1. `random_generators.py`
 
@@ -57,11 +57,6 @@ This is the main module that ties everything together. It imports the random gen
 
 - `generate_email_html(index)`: Generates a single phishing email using random data and saves it to an HTML file.
 - `generate_emails_html(num_emails)`: Generates multiple phishing emails by calling `generate_email_html()` multiple times and saves them to the specified folder.
-
-### Folder Structure
-
-- `phishing_emails/`: This is the main directory containing the 3 Python files.
-  - `generated_emails/`: This is where the generated phishing emails will be saved.
 
 ### Example of Generated Email
 
