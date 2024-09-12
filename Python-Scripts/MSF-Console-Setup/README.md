@@ -7,15 +7,29 @@
 ╚══════╝╚═╝     ╚══════╝ ╚═════╝ ╚═╝   ╚═╝   
 ```
 
-This script automates the process of setting up and starting a Metasploit handler for a reverse TCP payload targeting Android devices. The purpose of this script is to simplify the process of starting a Metasploit session with predefined parameters (`LHOST`, `LPORT`, and `PAYLOAD`). It automatically launches Metasploit, configures the multi/handler module, and starts listening for incoming connections on the specified `LHOST` and `LPORT`.
+These scripts automate the process of setting up and starting a Metasploit handler for reverse TCP payloads targeting Android, Windows, and Linux devices. The purpose of these scripts is to simplify the process of starting a Metasploit session with predefined parameters (`LHOST`, `LPORT`, and `PAYLOAD`). Each script automatically launches Metasploit, configures the multi/handler module, and starts listening for incoming connections on the specified `LHOST` and `LPORT` for their respective targets.
 
-## How It Works
+### Available Scripts
 
-- **Predefined Variables**:
-  - `PAYLOAD`: Specifies the Metasploit payload (`android/meterpreter/reverse_tcp`).
-  - `LHOST` and `LPORT`: Define the local host IP address and port for the reverse TCP connection.
-  
-- **Automated Metasploit Console Setup**: The script launches `msfconsole`, configures the multi/handler exploit with the specified payload and network parameters, and starts the listener in the background.
+For all scripts the `LHOST` and `LPORT`: Define the local host IP address and port for the reverse TCP connection.
+
+1. **Android Reverse TCP Handler Script**:
+   - **Predefined Variables**:
+     - `PAYLOAD`: Specifies the Metasploit payload (`android/meterpreter/reverse_tcp`).
+
+2. **Windows Reverse TCP Handler Script**:
+   - **Predefined Variables**:
+     - `PAYLOAD`: Specifies the Metasploit payload (`windows/meterpreter/reverse_tcp`).
+   
+3. **Linux Reverse TCP Handler Script**:
+   - **Predefined Variables**:
+     - `PAYLOAD`: Specifies the Metasploit payload (`linux/x86/meterpreter/reverse_tcp` or `linux/x64/meterpreter/reverse_tcp` depending on the architecture).
+
+### General Workflow
+
+- **Automated Metasploit Console Setup**: Each script launches `msfconsole`, configures the multi/handler exploit with the appropriate payload and network parameters for the specific target platform (Android, Windows, or Linux), and starts the listener in the background. This automation ensures that the process of initiating a reverse TCP connection is fast and error-free across different platforms.
+
+As each script has the `payload`, `LHOST`, and `LPORT` predefined, they can easily be modified before execution to suit the specific requirements of the user.
 
 ### Example Output
 
