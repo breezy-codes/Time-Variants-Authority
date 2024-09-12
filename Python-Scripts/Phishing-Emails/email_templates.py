@@ -19,8 +19,6 @@ subject_lines = [
 
 email_bodies = [
     """
-    <html>
-    <body>
         <p>Hi Mobius .m Mobius,</p>
         <p>As someone who loves jet skiing in {location}, we’re thrilled to introduce you to something that will take your adventures to the next level! Our brand-new app, <strong>{app_name}</strong>, is designed specifically for jet ski enthusiasts like you. Whether you’re looking to track your {random_activity}, discover {random_feature}, or connect with fellow riders from around the world, this app has it all.</p>
         
@@ -40,12 +38,8 @@ email_bodies = [
         {company_update}
         
         <p>Best regards,<br>{team_name}</p>
-    </body>
-    </html>
     """,
     """
-    <html>
-    <body>
         <p>Hey Mobius .m Mobius,</p>
         <p>If exploring the waters at {location} is your thing, then you’re going to love what we have in store for you! Introducing <strong>{app_name}</strong> – the ultimate app for jet ski enthusiasts. Whether you’re out for a thrilling ride or just cruising, this app gives you the tools to {random_activity}, stay up-to-date on {random_feature}, and even {random_social_feature}.</p>
         
@@ -67,12 +61,8 @@ email_bodies = [
         {company_update}
         
         <p>Cheers,<br>{team_name}</p>
-    </body>
-    </html>
     """,
     """
-    <html>
-    <body>
         <p>Hello Mobius .m Mobius,</p>
         <p>If you're looking to take your jet skiing adventures to the next level, then <strong>{app_name}</strong> is exactly what you need! Designed for jet ski enthusiasts like yourself, this app helps you track every detail of your ride, whether you're enjoying the waters in {location} or planning your next destination.</p>
         
@@ -94,12 +84,8 @@ email_bodies = [
         {company_update}
         
         <p>See you soon,<br>{team_name}</p>
-    </body>
-    </html>
     """,
     """
-    <html>
-    <body>
         <p>Dear Mobius .m Mobius,</p>
         <p>We're beyond excited to introduce you to <strong>{app_name}</strong> – the latest app that’s going to revolutionize your jet ski experiences! Whether you're a seasoned rider or just getting into jet skiing, this app is designed with you in mind.</p>
         
@@ -114,12 +100,8 @@ email_bodies = [
         <p><a href="{download_link}">Download {app_name} APK</a></p>
         
         <p>Sincerely,<br>{team_name}</p>
-    </body>
-    </html>
     """,
     """
-    <html>
-    <body>
         <p>Hi Mobius .m Mobius,</p>
         <p>Your jet ski experience in {location} is about to be transformed! Say hello to <strong>{app_name}</strong> – the app built for those who live for the thrill of the water. Whether you’re looking to {random_activity}, log your rides, or stay updated on {random_feature}, this app has got you covered.</p>
         
@@ -137,8 +119,6 @@ email_bodies = [
         
         {social_title}
         {social_news}
-    </body>
-    </html>
     """,
 ]
 

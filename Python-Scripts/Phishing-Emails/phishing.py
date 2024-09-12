@@ -11,7 +11,7 @@ os.makedirs(output_folder, exist_ok=True)
 from random_generator import (random_activities, random_features, random_social_features, app_names, download_urls, team_names, company_update_title, company_update, social_title, social_news)
 from email_templates import (subject_lines, email_bodies, random_paragraphs)
 
-# Generate a series of phishing emails in HTML format and save each as a new file
+# Generate a series of phishing emails and save each as a new file without <html> or <body> tags
 def generate_email_html(index):
     subject = random.choice(subject_lines)
     body_template = random.choice(email_bodies)
@@ -45,10 +45,10 @@ def generate_email_html(index):
         company_update=company_update_text
     )
     
-    # Save the email as an HTML file
+    # Save the email without <html> and <body> tags
     filename = os.path.join(output_folder, f"phishing_email_{index}.html")
     with open(filename, 'w') as f:
-        f.write(body)
+        f.write(body)  # Only writing the body content, no HTML tags
     
     return f"Email {index}: {subject}"
 
