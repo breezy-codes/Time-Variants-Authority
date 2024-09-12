@@ -84,10 +84,6 @@ Decryption successful.
 
 All files in `/home/tva/Documents/Important_TVA_Files` will be decrypted and restored to their original state.
 
-### Example Decryption Output
-
-Once the decryption is complete, files in the specified folder will be restored to their readable form, assuming the correct code word was provided.
-
 > For All Time Always. 🕰️🌐
 
 ```shell

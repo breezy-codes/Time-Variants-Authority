@@ -24,5 +24,5 @@ use exploit/multi/handler;
 set payload $PAYLOAD;
 set LHOST $LHOST;
 set LPORT $LPORT;
-run -j;
+run -j -z;
 "

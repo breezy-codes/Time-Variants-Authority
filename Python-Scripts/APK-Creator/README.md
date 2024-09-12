@@ -82,6 +82,8 @@ Aligned APK is: /home/Desktop/JetSki-App.apk
 Done. Signed and aligned APK is: /home/Desktop/JetSki-App.apk
 ```
 
+After the script is completed all the files will be waiting for you on your desktop. The output locatio can be modified as its set as a variable.
+
 > For All Time Always. 🕰️🌐
 
 ```shell
