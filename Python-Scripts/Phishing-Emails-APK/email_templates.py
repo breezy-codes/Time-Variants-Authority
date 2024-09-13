@@ -26,9 +26,8 @@ email_bodies = [
         
         <p>But that's not all – the app also lets you customize your rides, track your performance in real-time, and unlock exclusive features only available to our community members. Imagine having access to detailed weather forecasts, water conditions, and tide schedules for your favorite spots, all in one place.</p>
         
-        <p>Ready to enhance your jet ski experience? Download the app now and dive into a whole new level of fun and excitement:</p>
+        <p>Ready to enhance your jet ski experience? Install the app attached today!</p>
         
-        <p><a href="{download_link}">Download {app_name} APK</a></p>
         
         <p>Don’t miss out on this exciting opportunity to join the ultimate community of jet ski lovers. Your next adventure is just a click away!</p>
         
@@ -49,9 +48,7 @@ email_bodies = [
         
         <p>But that’s not all – we’ve also packed the app with a social platform where you can share your experiences, post ride highlights, and find other enthusiasts in {location} and beyond. It's a one-stop shop for all things jet skiing.</p>
         
-        <p>Don’t wait – click the link below to get started today:</p>
-        
-        <p><a href="{download_link}">Download {app_name} APK</a></p>
+        <p>Don’t wait – install the app attached below to get started today!</p>
         
         {social_title}
         {social_news}
@@ -72,9 +69,7 @@ email_bodies = [
         
         <p>What sets this app apart? You’ll have access to live data on weather conditions, tidal shifts, and even other riders’ reviews of the best spots. And if that wasn't enough, {app_name} lets you log your journeys, track your performance, and compete with riders from all over the world.</p>
         
-        <p>Download the app today and start your adventure:</p>
-        
-        <p><a href="{download_link}">Download {app_name} APK</a></p>
+        <p>Install the app today and start your adventure!</p>
         
         <p>Join the growing community of jet ski lovers and take your passion to the next level!</p>
         
@@ -95,10 +90,8 @@ email_bodies = [
         
         <p>What makes {app_name} special? It offers cutting-edge features like real-time weather updates, GPS tracking, and rider-to-rider communication, making sure that every ride is smooth, safe, and memorable. You’ll also be able to share your favorite routes, compare your performance stats, and explore new destinations with ease.</p>
         
-        <p>Don’t wait – download the app today and start your journey towards endless water adventures:</p>
-        
-        <p><a href="{download_link}">Download {app_name} APK</a></p>
-        
+        <p>Don’t wait – install the app today and start your journey towards endless water adventures.</p>
+
         <p>Sincerely,<br>{team_name}</p>
     """,
     """
@@ -109,9 +102,7 @@ email_bodies = [
         
         <p>With features like ride tracking, performance metrics, and real-time water conditions, {app_name} ensures you’re always prepared for your next adventure. But there’s more – connect with other jet ski enthusiasts, share your journeys, and explore new spots around {location} and beyond!</p>
         
-        <p>Why wait? Get the app now and make every ride even more unforgettable:</p>
-        
-        <p><a href="{download_link}">Download {app_name} APK</a></p>
+        <p>Why wait? Get the app now and make every ride even more unforgettable!</p>
         
         <p>Let’s hit the water and explore what’s out there!</p>
         
