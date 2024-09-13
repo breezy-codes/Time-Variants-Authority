@@ -5,9 +5,6 @@
 ██║  ██║██╔══╝  ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║       ██║   ██║   
 ██████╔╝███████╗╚██████╗██║  ██║   ██║   ██║        ██║       ██║   ██║   
 ╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝       ╚═╝   ╚═╝   
-
-Welcome to the Decryption Script! Enter the folder path that needs to be decrypted.
-Beware, there is only 5 attempts to enter the correct code word.
 ```
 
 This folder contains a Python-based tool to decrypt all files within a specified folder using AES (Advanced Encryption Standard) decryption. The files are decrypted with a key derived from a user-provided code word, ensuring that the original data can only be restored with the correct key. The tool handles decryption with AES in CBC (Cipher Block Chaining) mode, and it allows the user 5 attempts to enter the correct code word.
@@ -56,19 +53,61 @@ The primary purpose of this is to decrypt all files in a given folder. The key f
      - `code_word`: The user-provided string used to derive the decryption key.
    - **Operation:** Walks through all files in the folder and decrypts each one.
 
-### Example Usage
+### Example Usage when not guessing the right key
 
 ```bash
+██████╗ ███████╗ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗    ██╗████████╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝    ██║╚══██╔══╝
+██║  ██║█████╗  ██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║       ██║   ██║   
+██║  ██║██╔══╝  ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║       ██║   ██║   
+██████╔╝███████╗╚██████╗██║  ██║   ██║   ██║        ██║       ██║   ██║   
+╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝       ╚═╝   ╚═╝   
+
+Welcome to Decrypt it! Your favourite decryption tool.
+Enter the folder path to decrypt and the code word to decrypt the files.
+Then sit back and relax while we decrypt your files.
+Well, that's the plan anyway...
+
 Enter the folder path to decrypt: /home/tva/Documents/Important_TVA_Files
-Attempt 1/5 - Enter the code word: TVA_KEY_WRONG
-Failed to decrypt /home/tva/Documents/Important_TVA_Files/TVA_Project_Plan.txt. Possible incorrect key.
-Attempt 1 failed. Please try again.
-Attempt 2/5 - Enter the code word: TVA_SECRET_KEY
+Attempt 1/5 - Enter the code word: pass
+Failed to decrypt... Possible incorrect key.
+Oops, that didn't work. Try again!
+Attempt 2/5 - Enter the code word: sos
+Failed to decrypt... Possible incorrect key.
+Well, what are you going to do?
+Attempt 3/5 - Enter the code word: help
+Failed to decrypt... Possible incorrect key.
+Third time's the charm... or not.
+Attempt 4/5 - Enter the code word: why
+Failed to decrypt... Possible incorrect key.
+Wow, still not right? No pressure or anything, not like you've got anything to lose...
+Attempt 5/5 - Enter the code word: nooooo
+Failed to decrypt... Possible incorrect key.
+Well, you may as well just run sudo rm -rf / now....
+Maximum attempts reached.
+```
+
+### Example Usage when guessing the right key
+
+```bash
+██████╗ ███████╗ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗    ██╗████████╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝    ██║╚══██╔══╝
+██║  ██║█████╗  ██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║       ██║   ██║   
+██║  ██║██╔══╝  ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║       ██║   ██║   
+██████╔╝███████╗╚██████╗██║  ██║   ██║   ██║        ██║       ██║   ██║   
+╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝       ╚═╝   ╚═╝   
+
+Welcome to Decrypt it! Your favourite decryption tool.
+Enter the folder path to decrypt and the code word to decrypt the files.
+Then sit back and relax while we decrypt your files.
+Well, that's the plan anyway...
+
+Enter the folder path to decrypt: /home/tva/Documents/Important_TVA_Files
+Attempt 1/5 - Enter the code word: HAPPY
 Decrypted /home/tva/Documents/Important_TVA_Files/TVA_Project_Plan.txt
 Decrypted /home/tva/Documents/Important_TVA_Files/TVA_Access_Credentials.txt
 Decrypted /home/tva/Documents/Important_TVA_Files/TVA_Strategy_Report.docx
 Decrypted /home/tva/Documents/Important_TVA_Files/TVA_Budget_2024.xlsx
-Decrypted /home/tva/Documents/Important_TVA_Files/TVA_Internal_Memo.pdf
 Decryption successful.
 ```
 

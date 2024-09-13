@@ -13,17 +13,21 @@ This project provides a Python-based tool to encrypt all files within a specifie
 
 ## Disclaimer
 
-This project was created for educational purposes as part of a HD project, and it should only be used in simulated environments for educational or research purposes. The use of phishing emails for malicious intent is illegal and unethical. As this was created for a HD project, it doesn't contain the proper level of security for real-world applications.
+This project was created for educational purposes as part of a HD project, and it should only be used in simulated environments for educational or research purposes. As this was created for a HD project, it doesn't contain the proper level of security in the encryption for real-world applications.
 
 ## Purpose
 
 The primary purpose of this is to encrypt all files in a given folder. The key for encryption is derived from a code word, which ensures that the files can only be decrypted using the same code word. The encryption algorithm used is AES, with padding applied to ensure the file data fits within block size constraints. The folder consists of a single Python file that handles key derivation, file encryption, and folder traversal to encrypt multiple files at once.
 
+## Files
+
+There are two versions of this script, the first one is the `encrypt.py` which has the interaction in terminal, as well as one involving no interaction that takes the arguments when running the file which is `encrypt_no_interact.py`.
+
 ### Code Breakdown
 
 - **Key Derivation:** The key for AES encryption is derived from a user-supplied code word using the PBKDF2 (Password-Based Key Derivation Function 2) method with the SHA-256 hashing algorithm. This process ensures the key is securely generated from the code word.
   
-- **File Encryption:** AES encryption with CBC mode is applied to individual files. The encryption function first pads the data, generates an IV (Initialization Vector), and then encrypts the data. The IV is prepended to the encrypted data for use in decryption.
+- **File Encryption:** AES encryption with CBC mode is applied to individual files. The encryption function first pads the data, generates an IV (Initialisation Vector), and then encrypts the data. The IV is prepended to the encrypted data for use in decryption.
 
 - **Folder Encryption:** The tool walks through all files in the specified folder and encrypts each one using the derived key.
 
@@ -54,16 +58,43 @@ The primary purpose of this is to encrypt all files in a given folder. The key f
      - `code_word`: The user-provided string used to derive the encryption key.
    - **Operation:** Walks through all files in the folder and encrypts each one.
 
-### Example Usage
+### Example Usage of `encrypt.py`
 
 ```bash
+███████╗███╗   ██╗ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗    ██╗████████╗
+██╔════╝████╗  ██║██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝    ██║╚══██╔══╝
+█████╗  ██╔██╗ ██║██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║       ██║   ██║   
+██╔══╝  ██║╚██╗██║██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║       ██║   ██║   
+███████╗██║ ╚████║╚██████╗██║  ██║   ██║   ██║        ██║       ██║   ██║   
+╚══════╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝       ╚═╝   ╚═╝  
+
+Welcome to the Encrypt it! Your favourite encryption tool.
+Enter the folder path to encrypt and a code word to encrypt the files.
+Then sit back and relax while we encrypt your files. 
+Because this is totally safe and not at all suspicious...
+
 Enter the folder path to encrypt: /home/tva/Documents/Important_TVA_Files
 Enter the code word: TVA_SECRET_KEY
+
 Encrypted /home/tva/Documents/Important_TVA_Files/TVA_Project_Plan.txt
 Encrypted /home/tva/Documents/Important_TVA_Files/TVA_Access_Credentials.txt
 Encrypted /home/tva/Documents/Important_TVA_Files/TVA_Strategy_Report.docx
 Encrypted /home/tva/Documents/Important_TVA_Files/TVA_Budget_2024.xlsx
 Encrypted /home/tva/Documents/Important_TVA_Files/TVA_Internal_Memo.pdf
+All files in the folder have been encrypted.
+```
+
+In this example, the user provides the folder path `/home/tva/Documents/Important_TVA_Files` and the code word `TVA_SECRET_KEY`.
+
+### Example Usage of `encrypt_no_interact.py`
+
+```bash
+python encrypt_no_interact.py /home/tva/Documents/Important_TVA_Files TVA_SECRET_KEY
+```
+
+Which gives
+  
+```bash
 All files in the folder have been encrypted.
 ```
 
