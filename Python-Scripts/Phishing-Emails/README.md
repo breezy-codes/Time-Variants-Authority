@@ -15,7 +15,7 @@ This project was created for educational purposes as part of a HD project, and i
 
 ## Purpose
 
-The primary purpose of this project is to generate targeted phishing emails to a specific TVA employee as part of the HD hacking project. The target employee was found to love Jetskis, so 3 python files were created to generate a series of randomised but themed emails to entice the target to click on a link and install a "Jetski" app on their device. The emails are generated in HTML format and saved to a folder for later use.
+The primary purpose of this is to generate targeted phishing emails to a specific TVA employee as part of the HD hacking project. The target employee was found to love Jetskis, so 3 python files were created to generate a series of randomised but themed emails to entice the target to click on a link and install a "Jetski" app on their device. The emails are generated in HTML format and saved to a folder for later use.
 
 ## Folder Structure
 
@@ -63,21 +63,17 @@ This is the main module that ties everything together. It imports the random gen
 An example of what a generated phishing email might look like:
 
 ```html
-<html>
-<body>
-    <p>Hi Mobius .m Mobius,</p>
-    <p>As someone who loves jet skiing in Miami, we’ve got something exciting for you! Our new app, <strong>Jet Ski Pro</strong>, helps you track your next adventure, get real-time weather forecasts, and connect with other jet ski enthusiasts worldwide.</p>
-    <p>Discover the thrill of the open water with our latest tracking features. Whether you're a pro or just starting, this app will elevate your experience!</p>
-    <p>Get started by clicking the link below:<br>
-    <a href="http://jetskiproapp.com/download">Download Jet Ski Pro APK</a></p>
-    <p>Don’t miss out on enhancing your jet ski adventures!</p>
-    <h2>Connect with Other Riders</h2>
-    <p>Our app now features a social news feed where you can stay updated on the latest trends in the jet ski community. Don't miss out on the fun!</p>
-    <h2>Stay Updated on the Latest Features</h2>
-    <p>Our latest app update includes enhanced tracking features, improved weather forecasts, and a brand-new social news feed. Download now to experience the difference!</p>
-    <p>Best regards,<br>Jet Ski Adventures</p>
-</body>
-</html>
+<p>Hi Mobius .m Mobius,</p>
+<p>As someone who loves jet skiing in Miami, we’ve got something exciting for you! Our new app, <strong>Jet Ski Pro</strong>, helps you track your next adventure, get real-time weather forecasts, and connect with other jet ski enthusiasts worldwide.</p>
+<p>Discover the thrill of the open water with our latest tracking features. Whether you're a pro or just starting, this app will elevate your experience!</p>
+<p>Get started by clicking the link below:<br>
+<a href="http://jetskiproapp.com/download">Download Jet Ski Pro APK</a></p>
+<p>Don’t miss out on enhancing your jet ski adventures!</p>
+<h2>Connect with Other Riders</h2>
+<p>Our app now features a social news feed where you can stay updated on the latest trends in the jet ski community. Don't miss out on the fun!</p>
+<h2>Stay Updated on the Latest Features</h2>
+<p>Our latest app update includes enhanced tracking features, improved weather forecasts, and a brand-new social news feed. Download now to experience the difference!</p>
+<p>Best regards,<br>Jet Ski Adventures</p>
 ```
 
 ### Requirements
@@ -87,6 +83,8 @@ An example of what a generated phishing email might look like:
 ```bash
 pip install faker
 ```
+
+---
 
 > For All Time Always. 🕰️🌐
 

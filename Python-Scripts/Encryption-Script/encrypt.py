@@ -62,8 +62,9 @@ def display_title():
 
 Welcome to the Encrypt it! Your favourite encryption tool.
 Enter the folder path to encrypt and a code word to encrypt the files.
-Then sit back and relax while we encrypt your files.
-          """)
+Then sit back and relax while we encrypt your files. 
+Because this is totally safe and not at all suspicious...
+""")
 
 if __name__ == "__main__":
     display_title()

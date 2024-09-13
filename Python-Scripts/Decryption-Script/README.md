@@ -18,7 +18,7 @@ This project was created for educational purposes as part of a HD project, and i
 
 ## Purpose
 
-The primary purpose of this project is to decrypt all files in a given folder. The key for decryption is derived from a code word that must match the one used during encryption. The decryption algorithm used is AES in CBC mode, with padding removed to restore the original file data. The consists of a single Python file that handles key derivation, file decryption, and folder traversal to decrypt multiple files at once.
+The primary purpose of this is to decrypt all files in a given folder. The key for decryption is derived from a code word that must match the one used during encryption. The decryption algorithm used is AES in CBC mode, with padding removed to restore the original file data. The consists of a single Python file that handles key derivation, file decryption, and folder traversal to decrypt multiple files at once.
 
 ### Code Breakdown
 
@@ -56,16 +56,6 @@ The primary purpose of this project is to decrypt all files in a given folder. T
      - `code_word`: The user-provided string used to derive the decryption key.
    - **Operation:** Walks through all files in the folder and decrypts each one.
 
-### Requirements
-
-The project relies on the following Python libraries:
-
-- `cryptography` library for AES decryption and key derivation.
-
-```bash
-pip install cryptography
-```
-
 ### Example Usage
 
 ```bash
@@ -83,6 +73,18 @@ Decryption successful.
 ```
 
 All files in `/home/tva/Documents/Important_TVA_Files` will be decrypted and restored to their original state.
+
+### Requirements
+
+The project relies on the following Python libraries:
+
+- `cryptography` library for AES decryption and key derivation.
+
+```bash
+pip install cryptography
+```
+
+---
 
 > For All Time Always. 🕰️🌐
 

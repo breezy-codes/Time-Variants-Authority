@@ -47,15 +47,6 @@ All the variables are set at the beginning of the file, allowing for an easy cha
 5. **Align the APK**:
    - The APK is aligned using `zipalign`, which optimizes it for performance on Android devices.
 
-### Requirements
-
-The script relies on several tools:
-
-- `msfvenom` for generating the reverse TCP payload and APK.
-- `keytool` for generating the keystore.
-- `jarsigner` for signing the APK.
-- `zipalign` for aligning the APK.
-
 ### Example Output
 
 ```bash
@@ -82,7 +73,18 @@ Aligned APK is: /home/Desktop/JetSki-App.apk
 Done. Signed and aligned APK is: /home/Desktop/JetSki-App.apk
 ```
 
-After the script is completed all the files will be waiting for you on your desktop. The output locatio can be modified as its set as a variable.
+After the script is completed all the files will be waiting for you on your desktop. The output location can be modified as its set as a variable.
+
+### Requirements
+
+The script relies on several tools:
+
+- `msfvenom` for generating the reverse TCP payload and APK.
+- `keytool` for generating the keystore.
+- `jarsigner` for signing the APK.
+- `zipalign` for aligning the APK.
+
+---
 
 > For All Time Always. 🕰️🌐
 

@@ -41,7 +41,7 @@ def decrypt_file(file_path, key):
         return True
     except (ValueError, InvalidSignature):
         # If decryption fails, return False
-        print(f"Failed to decrypt {file_path}. Possible incorrect key.")
+        print(f"Failed to decrypt... Possible incorrect key.")
         return False
 
 # Function to decrypt all files in the folder
@@ -71,8 +71,17 @@ def display_title():
 Welcome to Decrypt it! Your favourite decryption tool.
 Enter the folder path to decrypt and the code word to decrypt the files.
 Then sit back and relax while we decrypt your files.
-Be warned... you only have 5 attempts to enter the correct code word.
-          """)
+Well, that's the plan anyway...
+""")
+
+# List of progressively worse failure messages for the user
+failure_messages = [
+    "Oops, that didn't work. Try again!",
+    "Well, what are you going to do?",
+    "Third time's the charm... or not.",
+    "Wow, still not right? No pressure or anything, not like you've got anything to lose...",
+    "Well, you may as well just run sudo rm -rf / now...."
+]
 
 if __name__ == "__main__":
     display_title()
@@ -90,9 +99,9 @@ if __name__ == "__main__":
             print("Decryption successful.")
             break
         else:
+            print(failure_messages[attempts]) # Print failure message
             attempts += 1
-            print(f"Attempt {attempts} failed. Please try again.")
         
         # If the maximum number of attempts is reached
         if attempts == max_attempts:
-            print("Maximum attempts reached. Decryption failed.")
+            print("Maximum attempts reached.")

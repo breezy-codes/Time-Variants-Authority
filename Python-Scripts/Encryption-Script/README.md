@@ -17,7 +17,7 @@ This project was created for educational purposes as part of a HD project, and i
 
 ## Purpose
 
-The primary purpose of this project is to encrypt all files in a given folder. The key for encryption is derived from a code word, which ensures that the files can only be decrypted using the same code word. The encryption algorithm used is AES, with padding applied to ensure the file data fits within block size constraints. The folder consists of a single Python file that handles key derivation, file encryption, and folder traversal to encrypt multiple files at once.
+The primary purpose of this is to encrypt all files in a given folder. The key for encryption is derived from a code word, which ensures that the files can only be decrypted using the same code word. The encryption algorithm used is AES, with padding applied to ensure the file data fits within block size constraints. The folder consists of a single Python file that handles key derivation, file encryption, and folder traversal to encrypt multiple files at once.
 
 ### Code Breakdown
 
@@ -54,16 +54,6 @@ The primary purpose of this project is to encrypt all files in a given folder. T
      - `code_word`: The user-provided string used to derive the encryption key.
    - **Operation:** Walks through all files in the folder and encrypts each one.
 
-### Requirements
-
-The project relies on the following Python libraries:
-
-- `cryptography` library for AES encyption and key derivation.
-
-```bash
-pip install cryptography
-```
-
 ### Example Usage
 
 ```bash
@@ -78,6 +68,18 @@ All files in the folder have been encrypted.
 ```
 
 All files in `/home/tva/Documents/Important_TVA_Files` will be encrypted and saved back to their original locations.
+
+### Requirements
+
+The project relies on the following Python libraries:
+
+- `cryptography` library for AES encyption and key derivation.
+
+```bash
+pip install cryptography
+```
+
+---
 
 > For All Time Always. 🕰️🌐
 
