@@ -89,7 +89,7 @@ In this example, the user provides the folder path `/home/tva/Documents/Importan
 ### Example Usage of `encrypt_no_interact.py`
 
 ```bash
-python encrypt_no_interact.py /home/tva/Documents/Important_TVA_Files TVA_SECRET_KEY
+python encrypt_no_interact.py -l /home/tva/Documents/Important_TVA_Files -p TVA_SECRET_KEY
 ```
 
 Which gives

@@ -16,7 +16,7 @@ def create_tracking_pixel():
 
 # HTTP request handler class
 class TrackingHandler(http.server.SimpleHTTPRequestHandler):
-    def log_request(self):
+    def custom_log_request(self):
         # Log the request details
         client_ip = self.client_address[0]
         user_agent = self.headers.get('User-Agent')
@@ -26,7 +26,7 @@ class TrackingHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         # Log request when pixel is accessed
-        self.log_request()
+        self.custom_log_request()
 
         # Serve the tracking pixel (GIF image)
         if self.path == f'/{TRACKING_PIXEL}':
@@ -39,8 +39,20 @@ class TrackingHandler(http.server.SimpleHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
 
+def display_title():
+    print(r"""
+██████╗ ██╗██╗  ██╗███████╗██╗     ██╗███████╗██╗   ██╗
+██╔══██╗██║╚██╗██╔╝██╔════╝██║     ██║██╔════╝╚██╗ ██╔╝
+██████╔╝██║ ╚███╔╝ █████╗  ██║     ██║█████╗   ╚████╔╝ 
+██╔═══╝ ██║ ██╔██╗ ██╔══╝  ██║     ██║██╔══╝    ╚██╔╝  
+██║     ██║██╔╝ ██╗███████╗███████╗██║██║        ██║   
+╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝        ╚═╝   
+""")
+
+
 # Main function to start the server
 def start_server():
+    display_title()
     # Configure logging
     logging.basicConfig(filename=LOG_FILE, level=logging.INFO)
     print(f"Logging to {LOG_FILE}...")

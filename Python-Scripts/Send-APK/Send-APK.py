@@ -88,7 +88,7 @@ So you wanna send an email hey? I hope you're not up to no good...
         tracking_pixel_url = input("Enter the URL for the tracking pixel: ").strip()
         if tracking_pixel_url:
             # Add the tracking pixel to the end of the email body
-            tracking_pixel = f'<img src="{tracking_pixel_url}" width="1" height="1">'
+            tracking_pixel = f'<img src="{tracking_pixel_url}" width="1" height="1" alt="" style="display:none;">'
             html_body += tracking_pixel
             print(f"Tracking pixel added with URL: {tracking_pixel_url}")
         else:
